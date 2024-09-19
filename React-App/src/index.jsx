@@ -12,9 +12,11 @@ createRoot(document.getElementById('root')).render(
 
    <div>
      <h1 className='headinStyle'>Todo App</h1>
-        <h3>{todoTitle}</h3>
-        <p>{todoDes}</p>
-        <p>{dateName+"/"+monthName+"/"+currentYear}</p>
+       <div className='card'>
+       <h3 className='cardTitle'>{todoTitle}</h3>
+        <p className='cardDes'>{todoDes}</p>
+        <p className='cardFooter'>{dateName+"/"+monthName+"/"+currentYear}</p>
+       </div>
    </div>
  ,
 )
