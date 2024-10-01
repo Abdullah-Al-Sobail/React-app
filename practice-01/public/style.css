@@ -1,0 +1,41 @@
+/* General styles for the product cards */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    min-height: 450px; /* Ensures consistent height for cards */
+    display: inline-block; /* Inline block for cards */
+    vertical-align: top; /* Aligns cards to the top */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cardHeading {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .cardImage {
+   height: 100px;
+   width: 100px;
+   margin-bottom: 10px;
+   
+  }
+  .cardImage img{
+        width: 100%;
+        display: block;
+}
